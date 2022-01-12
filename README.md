@@ -12,6 +12,12 @@ The .ini file will contain the possible keybindings with a few defaults set.
 
 Godtify will add itself to the tray, if you would like to close it, rightclick the icon (light blue spotify logo) and select exit.
 
+Windows 10 and later might have SmartScreen attempt to block it because the application is not signed.
+
+You have two options:
+* Don't run Godtify.
+* Click on More info and then Run anyway.
+
 ## Troubleshooting
 If for some odd reason the hotkeys aren't working it could be because of one of the two issues below. 
 * Godtify couldn't register the hotkeys (another program already has these registered or the .ini file is broken).
