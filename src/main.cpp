@@ -385,15 +385,10 @@ LRESULT CALLBACK wnd_proc(HWND hwnd, UINT msg, WPARAM wparam, LPARAM lparam)
         break;
         case WMAPP_NOTIFYCALLBACK:
         {
-            switch (lparam)
+            int wmId = LOWORD(lparam);
+            switch (wmId)
             {
                 case WM_RBUTTONUP:
-                {
-                    show_context_menu(hwnd);
-                }
-                break;
-                // Yeah?????????
-                case 87687684:
                 {
                     show_context_menu(hwnd);
                 }

@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 3.20.1)
 
-project(godtify VERSION 0.0.1)
+project(godtify VERSION 1.0.0.1)
 
 string (TOUPPER ${CMAKE_BUILD_TYPE} BUILD_TYPE)
 add_compile_definitions(${BUILD_TYPE})
